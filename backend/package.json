@@ -2,6 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "Server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon Server.js",
@@ -9,5 +10,10 @@
   },
   "author": "AkshatSinghania",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "util": "^0.12.3"
+  }
 }
